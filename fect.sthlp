@@ -40,7 +40,7 @@
 {synopt:{opt cv}} a flag indicating whether cross-validation will be performed to select the optimal number of factors or hyper-parameter in matrix completion algorithm.{p_end}
 {synopt:{opt kfold(integer)}} an integer specifying number of cross-validation rounds, default to 10. {p_end}
 {synopt:{opt cvtreat}} a flag indicating  whether to only use observations of treated units as testing set in cross validation.{p_end}
-{synopt:{opt cvobs(integer)}} an integer specifying the length of continuous observations within a unit in the testing set, default to 3.{p_end}
+{synopt:{opt cvnobs(integer)}} an integer specifying the length of continuous observations within a unit in the testing set, default to 3.{p_end}
 {synopt:{opt method(string)}} a string specifying which matrix completion algorithm will be used. {opt fe}(default) for two-way fixed effects model, {opt ife} for interactive fixed effects model, {opt mc} for matrix copletion method, {opt polynomial} for polynomial trend terms, {opt bspline} for regression splines and {opt both} for both of the IFE model and the MC model. {p_end} 
 {synopt:{opt alpha(real)}} significant level for hypothesis test and CIs, default to 0.05. {p_end}
 {synopt:{opt se}} a flag indicating whether uncertainty estimates will be produced, needed for the equivalence test and the placebo test. {p_end}
