@@ -2735,7 +2735,7 @@ twoway (rcap att_lb att_ub s, color(black) lcolor(black) yaxis(1)) ///
 	 graphr(fcolor(white)) ///
 	 plotregion(lcolor(black) lwidth(thin) margin(zero) ) ///
 	 note("`CIlevel'% Confidence Interval") ///
-legend(order( 1 "ATT(`CIlevel'% CI)" 2 "Placebo Region" 3 "ATT")) 
+legend(order( 1 "ATT(`CIlevel'% CI)" 2 "ATT" 3 "Placebo Region")) 
 
 
 if("`saving'"!=""){
